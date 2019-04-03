@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+	<html style="height: 100%;">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-
+
+fit=cover">
+	<title>Log In - Vultr.com</title>
+		<link href="/_css/global.css?v=664" rel="stylesheet">
+	<link href="/_js/bootstrap-grid.css" rel="stylesheet">
+	</head>
+<body class="loggedout_body">
+
+		<div class="loggedout_fluid_container">
+				<div class="loggedout_vcenter">
+
+						<div id="loggedout_container">
+				<div id="loggedout_module">
+					<a href="http://www.vultr.com" class="login-
+
+element"></a>
+											
+
+<form method="post">
+		<input type="hidden" name="action" 
+
+value="NULL">
+
+
+
+		<input type="hidden" name="login_type" value="normal">
+		<div class="login-email">
+			<input name="username" type="text" class="flexwidth100" 
+
+placeholder="Email Address" value="" required="required" autofocus/>
+		</div>
+					<hr class="hr15"/>
+			<div class="login-password">
+				<input name="password" type="password" class="flexwidth100" 
+
+placeholder="Password" required="required">
+			</div>
+				<hr class="hr15"/>
+									Please enter the 
+
+characters you see:
+				<div class="captcha_container">
+					<img src="/_images/captcha.php?s=5ca41d2cf3087">
+					<input type="text" name="captcha" 
+
+autocomplete="captcha" required="required">
+				</div>
+				<br>
+				<div style="clear: both"></div>
+										<input 
+
+type="submit" value="Login" class="flexwidth100" onclick="this.disabled = true; 
+
+this.form.submit(); this.value = 'Logging in...'"/>
+			<hr class="hr20"/>
+			Help, I <a href="/forgot_password/">forgot my password</a>.
+			<hr class="hr15"/>
+			Login with <a href="/sso/">Single Sign-On</a> instead.
+			</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+		<script src="/_js/jquery-3.3.1.min.js?v=664"></script>
+	<script src="/_js/jquery.flot.min.js"></script>
+	<script src="/_js/jquery.flot.time.min.js"></script>
+	<script src="/_js/select2.min.js"></script>
+	<script src="/_js/global.js?v=664"></script>
+	<script src="/_js/popper.min.js?v=664"></script>
+	<script src="/_js/bootstrap.js"></script>
+		
+						<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||
+
+function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date
+
+();a=s.createElement(o),
+			m=s.getElementsByTagName(o)
+
+[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-
+
+analytics.com/analytics.js','ga');
+			ga('create', 'UA-1366737-19', 'auto');
+			ga('send', 'pageview');
+			</script>
+				
+</body>
+</html>
